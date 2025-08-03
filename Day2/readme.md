@@ -23,7 +23,7 @@ In Unsupervised Learning, the model works with unlabeled data and identifies pat
 It is commonly used for clustering, dimensionality reduction, and pattern detection.
 
 ### 3. Reinforcement Learning
-Reinforcement Learning is based on an **agent-environment interaction** system. The model improves its performance by receiving rewards or penalties based on the actions it performs, learning optimal behavior over time.
+Reinforcement Learning is based on an agent-environment interaction system. The model improves its performance by receiving rewards or penalties based on the actions it performs, learning optimal behavior over time.
 
 ## Conclusion
 Understanding the different types of machine learning algorithms—Supervised, Unsupervised, and Reinforcement—offered a clearer perspective on how machines interpret and act on data. The self-test helped identify areas of improvement and reinforced the day’s learning through a balance of theory and practice.
