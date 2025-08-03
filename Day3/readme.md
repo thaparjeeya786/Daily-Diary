@@ -35,6 +35,6 @@ Linux often relies on the command-line terminal instead of graphical interfaces.
 
 Note: Linux commands are case-sensitive.
 
-##Conclusion
+## Conclusion
 Learning Linux and using the terminal was a fresh and exciting experience. Despite lacking a graphical interface, the commands were intuitive and easy to pick up with practice. These skills will be useful in development tasks and future projects. Looking forward to exploring advanced Linux commands next!
 
