@@ -13,7 +13,7 @@ The first day of training introduced the **fundamentals of Machine Learning (ML)
 - Understand the importance of ML in today’s world  
 - Learn the role of data in ML systems  
 
-##Introduction to Machine Learning
+## Introduction to Machine Learning
 **Machine Learning (ML)** allows computers to learn from data and make decisions without being explicitly programmed.  
 It powers systems like:
 - Image recognition  
