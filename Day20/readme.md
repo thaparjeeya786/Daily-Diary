@@ -4,7 +4,7 @@
 **Date:** 18 July 2025  
 
 ## Overview
-In today’s session, we explored the real-world applications of Artificial Intelligence (AI) and Machine Learning (ML). These technologies are no longer limited to research; they are transforming industries by automating tasks, improving decision-making, and making systems smarter. From healthcare to transportation, AI/ML is deeply integrated into daily life.
+In Today’s session, I explored the real-world applications of Artificial Intelligence (AI) and Machine Learning (ML). These technologies are no longer limited to research; they are transforming industries by automating tasks, improving decision-making, and making systems smarter. From healthcare to transportation, AI/ML is deeply integrated into daily life.
 
 ## Learning Objectives
 - Understand the real-world relevance of AI and ML across industries.  
