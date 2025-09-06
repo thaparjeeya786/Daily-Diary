@@ -28,7 +28,9 @@ LLaMA (Large Language Model Meta AI) is a family of advanced open-weight models 
    ollama serve
 
 ### Download a LLaMA model:
+ ```bash
 ollama run llama2
+ ```bash
 ollama run llama3:latest
 
 
