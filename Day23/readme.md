@@ -8,7 +8,7 @@ On the final day of training, I successfully developed and tested a **complete r
 
 ## Learning Objectives
 - Compare live facial input with stored encodings for recognition.  
-- Implement real-time face recognition using `face_recognition` and OpenCV.  
+- Implement real-time face recognition using face_recognition and OpenCV.  
 - Automate attendance logging with **pandas** and CSV handling.  
 - Distinguish between **known and unknown faces** and label them accordingly.  
 - Integrate all components into a fully functional end-to-end project.  
