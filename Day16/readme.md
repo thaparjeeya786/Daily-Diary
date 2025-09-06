@@ -35,6 +35,8 @@ TensorFlow can be installed with a simple command:
 ```bash
 pip install tensorflow
 
+---
+
 ### Conclusion
 
 Day 16 helped me understand how TensorFlow acts as a bridge between theory and implementation in machine learning. I realized that while algorithms explain the concepts, frameworks like TensorFlow make it possible to train, optimize, and deploy models at scale. Learning about its ecosystem and installation gave me confidence to start experimenting with real projects. This session marked an important step toward building practical, production-ready AI systems.
