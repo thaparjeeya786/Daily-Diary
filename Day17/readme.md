@@ -3,7 +3,7 @@
 **URN:** 2303002  
 **Date:** 15 July 2025  
 
-## Overview
+## Overview 
 Today’s session introduced me to Natural Language Processing (NLP), a branch of AI focused on enabling machines to understand, interpret, and generate human language. We explored its significance, key techniques, and practical applications such as chatbots, translation systems, and voice assistants.
 
 ## Learning Objectives
