@@ -1,0 +1,408 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* container in which data is to stored */
+.container{
+    width: 1170px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;  
+}
+
+/* div block which stores background data and has container inside it */
+.topheader{
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+/* setting the navbar list */
+.navbar ul{
+    margin-top: 40px;
+    margin-left: 40px;
+    list-style-type: none;  /* used to remove the style like dot or a or i or A */
+    float: left;
+}
+.navbar li{
+    display: inline-block;  /*used to make list elements in line side by side in blocks */
+}
+.navbar ul li a{
+    text-decoration: none; /*used to remove underline in anchor tag*/
+    padding: 20px 20px;
+    margin-top: 20px;
+    color: #000;
+}
+
+/* used for doing the text bold when mouse is hovered upon them*/
+.navbar ul li a:hover{
+    font-weight: bold;    
+}
+
+/* design the button in navbar */
+.navbar button{
+    background-color: white;
+    position: absolute;
+    top: 30px;
+    right: 100px;
+    font-weight: bold;
+    padding: 5px 20px;
+}
+
+/* design the button so that if hovered by mouse it will be bolder and change color*/
+.navbar button:hover{
+    font-weight: bolder;
+    background-color: aqua;
+}
+
+/*content block for data just below navbar */
+.content{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+.content .written{
+    float: left;
+    max-width: 50%;
+    padding-right: 50px;
+}
+.content .written h1{
+    /* padding-top: 180px;*/
+    padding-left: 20px;
+    padding-right: 30px; 
+    position: absolute;
+    top: 120px;
+    left: 30px;
+    font-size: xx-large;
+    float: left;
+    margin-bottom: 20px
+}
+.content p{
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    font-size: smaller;
+    float: left;
+}
+.content img{
+    /* padding-top: 100px; */
+    position: absolute;
+    right: 180px;
+    top: 120px;
+    float: right;
+    /* padding-left: 20px; */
+    height: auto;
+}
+.logs{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.logs img{
+    margin-top: -9px;
+    height: 300px;
+}
+.logs .logs-written{
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bolder;
+    text-align: center;
+}
+.logs-written h3{
+    font-size: xx-large;
+}
+.logs-written p{
+    font-weight: lighter;
+    font-size: small;
+    text-align: center;
+}
+.logs button{
+    padding: 10px ;
+    font-size: small;
+    font-weight: bold;
+    background-color: #000;
+    color: white;
+    border-color: #fff;
+}
+.logs button:hover{
+    font-weight: bolder;
+}
+
+.pictures{
+    position: relative;
+    text-align: center;
+    margin-top: 200px;
+    height: auto;
+}
+.pictures img{
+    margin-top: -9px;
+    height: 400px;
+}
+.pictures-content .container{
+    padding: 10px;
+    margin: 10px;
+}
+.pictures .pictures-content .picture1 {
+    width: 390px;
+    height: 300px;
+    position: absolute;
+    bottom: 150px;
+    left: 15px;
+    float: left;
+}
+.pictures .pictures-content .picture1 .pic1 {
+    width: 280px;
+    height: 250px;
+    align-items: center;
+    margin: 10px;
+  }
+.pictures .pictures-content .picture1 h3 {
+    font-weight: 600;
+    font-size: large;
+    text-align: center;
+    font-family: cursive;
+}
+.pictures .pictures-content .picture1 p {
+    font-size: small;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    margin: 10px;
+}
+.pictures .pictures-content .picture2 {
+    width: 390px;
+    height: 300px;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.pictures .pictures-content .picture2 .pic2{
+    width: 280px;
+    height: 250px;
+    align-items: center;
+    margin: 10px;
+}
+.pictures .pictures-content .picture2 h3 {
+    font-weight: 600;
+    font-size: large;
+    text-align: center;
+    font-family: cursive;
+}
+.pictures .pictures-content .picture2 p {
+    font-size: small;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    margin: 10px;
+}
+.pictures .pictures-content .picture3 {
+    width: 390px;
+    height: 80px;
+    position: absolute;
+    right: 15px;
+    bottom: 370px;
+    float: right;
+}
+.pictures .pictures-content .picture3 .pic3 {
+    height: 250px;
+    width: 280px;
+    align-items: center;
+    margin: 10px;
+}
+.pictures .pictures-content .picture3 h3 {
+    font-weight: 600;
+    font-size: large;
+    text-align: center;
+    font-family: cursive;
+}
+.pictures .pictures-content .picture3 p {
+    font-size: small;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    margin: 10px;
+}
+
+/* designing for logo background image starts */
+.logo img{
+    margin-top: -10px;
+    position: relative;
+}
+/* designing for logo background image ends */
+
+/* logo content designing starts */
+.logo .logo-content .logo-pic {
+    width: 390px;
+    height: 300px;
+    position: absolute;
+    bottom: 300px;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box; 
+    
+}
+.logo .logo-content .logo-pic .aeroplane{
+    margin: 10px;
+    margin-bottom: 0px;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    align-items: center;
+}
+.logo .logo-content .logo-pic h1 {
+    font-weight: 600;
+    font-size: large;
+    text-align: center;
+    margin: 10px 0;
+}
+.logo .logo-content .logo-pic p {
+    font-size: small;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    margin: 10px;
+}
+
+.image-wrapper, .right-column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-wrapper {
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+}
+
+.image-wrapper img {
+    width: 30%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.right-column {
+    min-width: 300px;
+    float: right;
+}
+
+.right-column .top-right-image {
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    float: right;
+    
+}
+
+
+.right-column .text-content h1 {
+    font-size: 24px;
+    margin: 0 0 20px;
+    line-height: 1.4;
+}
+
+.right-column .text-content p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.mountain .arrow {
+    font-size: 150px;
+    text-align: right;
+    font-family: Arial, sans-serif;
+}
+
+.mountain{
+    display: flex;
+    flex-direction: column;
+    width:45%;
+    position: relative;
+    height:90%;
+    justify-content: space-around;
+}
+
+.temp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.top-right-image{
+    position: relative;
+    width:70%;
+    height:40%;
+}
+
+.text-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.text-content h1{
+    position: relative;
+    width:33%;
+    text-decoration: underline;
+}
+
+.text-content p{
+    position: relative;
+    width: 60%;
+}
+
+
+
+.choose{
+    display: flex;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 40px;
+    border-radius: 8px;
+}
+.choose .text-column{
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+    padding: 20px;
+}
+.choose .text-column h1{
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+.choose .text-column .text-block{
+    margin-bottom: 20px;
+}
+.choose .text-column .text-block h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.choose .text-column .text-block p{
+    font-size: 16px;
+    line-height: 1.6;
+    
+}
+.choose .image-column{
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+}
+.choose .image-column img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}

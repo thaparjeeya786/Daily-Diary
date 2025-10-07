@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimal-ui">
+    <title>Training Report</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="Description" content="Training_102 report, Artificial Intelligence and Machine Learning  ">
+    <link rel="canonical" href=""/>
+
+    <!-- google earch engine tags -->
+    <meta itemprop="name" content="Training TR-102 Report">
+    <meta itemprop="Description" content="Training_102 report, Artificial Intelligence and Machine Learning  ">
+    <meta itemprop="image" content="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2Fofficial.gndec%2F&psig=AOvVaw0X1N8UNjScjMoQXC6s4WxU&ust=1720112004237000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJjh5tmqi4cDFQAAAAAdAAAAABAE">
+        
+    <!-- facebook meta tags -->
+    <meta property="og:url" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Training TR-102 Report">
+    <meta property="og:Description" content="Training_102 report, Artificial Intelligence and Machine Learning  ">
+    <meta property="og:image" content="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2Fofficial.gndec%2F&psig=AOvVaw0X1N8UNjScjMoQXC6s4WxU&ust=1720112004237000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJjh5tmqi4cDFQAAAAAdAAAAABAE">
+
+    <!-- Twitter meta tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Training TR-102 Report">
+    <meta name="twitter:Description" content="Training_102 report,Artificial Intelligence and Machine Learning  ">
+    <meta name="twitter:image" content="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2Fofficial.gndec%2F&psig=AOvVaw0X1N8UNjScjMoQXC6s4WxU&ust=1720112004237000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJjh5tmqi4cDFQAAAAAdAAAAABAE">
+
+    <link rel="shortcut icon" href="images/gndecLogo.png" type="image/png">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="https://www.gndec.ac.in/"><img src="./images/gndecLogo.png" alt="GNDEC Logo"></a>
+            <a href="#" class="home-button" onclick="showSection('home')">Home</a>    
+        </header>
+        
+        <section id="home" class="section active">
+            <h1>Training TR-102 Report</h1>
+            <p>By Jeeya Thapar, URN 2303002 <br> Guru Nanak Dev Engineering College Ludhiana</p>
+            <h2>4 Week training in <br> Artificial Intelligence and Machine Learning </h2>
+        </section>
+    
+        <nav>
+            <a href="./html/diary.html" onclick="showSection('diary')">Daily Diary</a>
+            <a href="./html/tasks.html" onclick="showSection('task')">Tasks done</a>
+            <br>
+        </nav>
+        <footer>
+            <a href="https://www.linkedin.com/in/jeeya-thapar-86a395287/"> <img src="./images/linkedin-logo.avif" alt="Unable to load" height="20px"></a>
+         </footer>
+    </div>
+    <script>
+        function showSection(id) {
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(section => {
+                section.classList.remove('active');
+            });
+            document.getElementById(id).classList.add('active');
+        }
+
+        let currentIndex = 0;
+        const images = document.querySelectorAll('.gallery img');
+        const captions = document.querySelectorAll('.gallery .caption');
+
+        function showSlide(index) {
+            images.forEach((img, i) => {
+                img.classList.remove('active');
+                captions[i].style.display = 'none';
+            });
+            images[index].classList.add('active');
+            captions[index].style.display = 'block';
+        }
+
+        function nextSlide() {
+            currentIndex = (currentIndex + 1) % images.length;
+            showSlide(currentIndex);
+        }
+
+        setInterval(nextSlide, 4000); // Change image every 4 seconds
+    </script>
+</body>
+</html>
